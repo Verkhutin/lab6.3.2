@@ -27,7 +27,8 @@ int MySum(int a[], int n, int s, int i) {
 		return 0;
 }
 
-int TemplateSum(int* a, const int size, int i)
+typedef int A;
+int TemplateSum(A* a, const A size, A i)
 {
 	if (i < size)
 	{
